@@ -1,5 +1,10 @@
+body{ 
+  background-image: url("image/photo.avif");
+}
+
 .flex {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .justify-between{
@@ -12,7 +17,7 @@
 h1{
     font-size: 30px;
     text-align: center;
-    color:#4c904c;
+    color:#c6efc6;
    
 }
 h2{
@@ -30,4 +35,24 @@ h2{
   ul{
     text-decoration: none;
     list-style-type: none;
+  }
+  .bouton{
+    background-color: #8bb2ca;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  .card{
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .card-image{
+    width: 100%;
+  }
+
+  .card-image img{
+    width: 100%;
   }
