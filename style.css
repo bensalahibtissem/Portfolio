@@ -1,0 +1,33 @@
+.flex {
+    display: flex;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+.image{
+    width: 10%;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    color:#4c904c;
+   
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    color:#454f45;
+   
+  }
+  h3{
+    font-size: 30px;
+    text-align: center;
+    color:#545454;
+  }
+
+  ul{
+    text-decoration: none;
+    list-style-type: none;
+  }
